@@ -13,7 +13,7 @@ public class DbConnect {
 	  {
 		   try{
 			   Class.forName("com.mysql.cj.jdbc.Driver");
-			   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/carrentaljsp","root","Satvik");
+			   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/carrentaldb","root","Satvik");
 		   }
 		   catch(Exception e)
 		   {
